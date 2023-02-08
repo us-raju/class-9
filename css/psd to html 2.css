@@ -1,0 +1,161 @@
+/* common css start  */
+    *{
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        box-sizing: border-box;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container{
+        width: 1170px;
+        margin: auto;
+    }
+    ul{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+    }
+   
+/* common css end  */
+/* css section start  */
+body{
+    font-family: 'Open Sans', sans-serif;;
+}
+#navigation{
+    background-color: #02918b;
+}
+#navigation div.row{
+    justify-content: space-between;
+    align-items: center;
+   
+}
+#navigation ul li a{
+    font-size: 12px;
+    font-weight: 800;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 16px 25px;
+    margin: 10px 0;
+    border-radius: 15px;
+    display: inline-block;
+    transition: .7s;
+  
+}
+#navigation ul li:hover a{
+    background-color: #cfc91d;
+}
+  /* css section end  */
+
+
+/* banner css section start */
+    #banner{
+        height: 728px;
+        background-image: url(../images/mypolio_bg.jpg);
+        background-size: cover;
+        background-position: center;
+        color: #ffffff;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+    }
+    #banner::after{
+        content: "";
+        position: absolute;
+        background-color: black;
+        inset: 0;
+        opacity: 0.6;
+        z-index: -1;
+    }
+    
+    #banner h3{
+        font-size: 30px;
+        font-weight: 400;
+    }
+    #banner h1{
+        font-size: 68px;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 30px;
+    }
+    #banner p{
+        font-size: 18px;
+    }
+    #banner img{
+        display: block;
+        margin: 52px auto;
+    }
+    #banner a{
+        font-size: 14px;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: #0b1016;
+        background-color: #cfc91d;
+        letter-spacing: 2px;
+        padding: 19px 42px;
+        display: inline-block;
+    }
+    #banner .container{
+        height: 100%;
+
+    }
+    #banner .row{
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+/*banner css section end  */
+
+
+/* about css section start  */
+    #about{
+        background-color: #ffffff;
+        height: 738px;
+        color: #7e8287;
+    }
+    #about p{
+        font-size: 16px;
+    }
+    #about h1{
+        font-size: 46px;
+        color: #02918c;
+        font-weight: 800;
+    }
+    #about h2{
+        font-size: 23px;
+        font-weight: 800;
+    }
+    #about .container{
+        height: 100%;
+        margin-top: 98px;
+   
+    
+        
+    }
+    .unknown{
+        width: 25%;
+        margin-top: 120px;
+    }
+    #about .row{
+        height: 100%; 
+        align-items: center;
+        justify-content: center;
+      
+    }
+    .all_center{
+        text-align: center;
+    }
+    #about .unknown h3{
+        margin-top: 35px;
+        margin-bottom: 34px;
+    }
+    #shape{
+        margin:32px 0 36px 0 ;
+    }
+    
+    /* about css section end  */
